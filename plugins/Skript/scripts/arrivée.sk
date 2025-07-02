@@ -1,0 +1,3 @@
+on join:
+    send "&aBienvenue sur &lThe Box&r&a ! &7Dans ce serveur, tu es enfermé(e) dans une grande boîte." to player
+    send "&7Essaie de te construire une base, des outils de base, et tout ce qui est nécessaire à ta survie." to player

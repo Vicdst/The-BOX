@@ -1,0 +1,3 @@
+every 2 seconds:
+    loop all players:
+        send action bar "&cThe BOX" to loop-player

@@ -1,0 +1,17 @@
+on portal enter:
+    if {cooldown.%uuid of event-player%} is set:
+        stop
+
+    if name of world of event-player is "world":
+        wait 1 tick
+        teleport event-player to location(194, 66, 48, world "world_nether")
+        send "&aTu es maintenant dans le Nether !" to event-player
+
+    else if name of world of event-player is "world_nether":
+        wait 1 tick
+        teleport event-player to location(1609, 67, 362, world "world")
+        send "&aTu es maintenant dans l'Overworld !" to event-player
+
+    set {cooldown.%uuid of event-player%} to true
+    wait 3 seconds
+    delete {cooldown.%uuid of event-player%}
