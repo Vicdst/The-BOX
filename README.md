@@ -16,6 +16,7 @@ Serveur de test : `ip.ip.ip` (1.21.5 Java Edition)
 Projet sous [GPL-3.0 license](https://choosealicense.com/licenses/gpl-3.0/).
 
 ## Crédits
-VicDSR
+VicDst
+
 
 ---
